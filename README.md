@@ -7,7 +7,18 @@
 ## Installation
 ### Known Installation Issues
 #### Usage
+``` from rdkit import Chem
+from syba.syba import SybaClassifier
 
+syba = SybaClassifier()
+syba.fitDefaultScore()
+smi = "O=C(C)Oc1ccccc1C(=O)O"
+syba.predict(smi)
+# syba works also with RDKit RDMol objects
+mol = Chem.MolFromSmiles(smi)
+syba.predict(mol=mol)
+# syba.predict is actually method with two keyword parameters "smi" and "mol", if both provided score is calculated for compound defined in "smi" parameter has the priority
+syba.predict(smi=smi, mol=mol)
 #### The following versions must be used in order to use the pretrained models:
 python 3.6+ <br/>
 DGL 0.7.0+ [https://www.dgl.ai/pages/start.html]<br/>

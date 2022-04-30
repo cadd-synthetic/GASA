@@ -13,6 +13,5 @@
 * dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
 ### Use in Python
-
-
-Datasets used in GASA can be found in `gasa/data/data.zip`folder: dataset for training, validation and test the model. three external test sets:TS1, TS2 and TS3
+run `main.py` for prediction. 
+Datasets used in GASA can be found in `gasa/data/data.zip` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3

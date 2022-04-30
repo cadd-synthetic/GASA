@@ -9,8 +9,8 @@
 ### Usage
 
 #### The following versions must be used in order to use the pretrained models:
-python 3.6+ <br/>
-DGL 0.7.0+ [https://www.dgl.ai/pages/start.html]<br/>
-PyTorch 1.5.0+[https://pytorch.org/get-started/locally/]<br/>
-dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
-RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
+* python 3.6+ <br/>
+* DGL 0.7.0+ [https://www.dgl.ai/pages/start.html]<br/>
+* PyTorch 1.5.0+[https://pytorch.org/get-started/locally/]<br/>
+* dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
+* RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]

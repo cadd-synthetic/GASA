@@ -14,5 +14,5 @@
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
 ### Use in Python
 
-Run `gasa/main.py` for prediction. 
+Run `gasa/main.py` for prediction. <br/>
 Datasets used in GASA can be found in `gasa/data/data.zip` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3

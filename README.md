@@ -1,4 +1,4 @@
-## GASA:Synthetic Accessibility Prediction of Organic Compounds based on Graph Attention Mechanism <br/>
+## GASA: Synthetic Accessibility Prediction of Organic Compounds based on Graph Attention Mechanism <br/>
 ### Description
 * GASA (Graph Attention-based assessment of Synthetic Accessibility) is used to evaluate the synthetic accessibility of small molecules by distinguishing compounds to be easy- (ES, 0) or hard-to-synthesize (HS, 1).<br/>
 * GASA focus on sampling around the decision boundary line and trained on 800,000 compounds from ChEMBL, GDBChEMBL and ZINC15 databases.<br/>
@@ -37,8 +37,11 @@ In data: <br/>
 In gasa: <br/> 
  * data.py: import and process the data <br/>
  * model.py: define GASA models <br/>
- * train.py: train GNN models <br/>
  * gasa_utils.py: converts SMILES into graph with features <br/>
  * gasa.py: code for predicting the results for a given molecule <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
  * explain.py: defines GraphSVX and main baselines <br/>
+ 
+Outside: <br/>
+* test.csv:
+

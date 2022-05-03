@@ -12,7 +12,7 @@
 * PyTorch 1.5.0+[https://pytorch.org/get-started/locally/]<br/>
 * dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
-### Use in Python
+## Use in Python
 ```
 from gasa import GASA 
 smiles = 'NC(=O)OC[C@H](N)CC1=CC=CC=C1' 
@@ -29,8 +29,7 @@ print(predict, pos, neg)
 [0.9403825402259827, 0.8335544466972351, 0.19376544654369354, 0.1610676646232605]
 [0.05961743742227554, 0.1664455384016037, 0.8062344789505005, 0.8389323353767395]
 ```
-<br/>
-### The structure of the code is as follows:
+## The structure of the code is as follows:
 In data: <br/>
  * ```data/data.zip``` folder: dataset for training, validation and test the model <br/>
                               Three external test sets:TS1, TS2 and TS3 <br/>

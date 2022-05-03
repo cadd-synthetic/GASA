@@ -34,6 +34,7 @@ print(predict, pos, neg)
 In data: <br/>
  * dataset for training, validation and test the model <br/>
  * three external test sets:TS1, TS2 and TS3 <br/>
+ 
 In gasa: <br/> 
  * data.py: import and process the data <br/>
  * model.py: define GASA models <br/>
@@ -41,6 +42,7 @@ In gasa: <br/>
  * gasa.py: code for predicting the results for a given molecule <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
  * explain.py: defines GraphSVX and main baselines <br/>
+
 Outside: <br/>
 * test.csv: several molecules for test the model
 

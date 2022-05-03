@@ -14,11 +14,11 @@
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
 ### Use in Python
 ```
-from gasa import GASA <br/>
-smiles = 'NC(=O)OC[C@H](N)CC1=CC=CC=C1' <br/>
-predict, pos, neg = GASA(smiles)  <br/>
-print(predict, pos, neg) <br/>
-[0] [0.8078028559684753] [0.19219708442687988] <br/>
+from gasa import GASA 
+smiles = 'NC(=O)OC[C@H](N)CC1=CC=CC=C1' 
+predict, pos, neg = GASA(smiles) 
+print(predict, pos, neg) 
+[0] [0.8078028559684753] [0.19219708442687988] 
 
 
 df = pd.read_csv('./test.csv')

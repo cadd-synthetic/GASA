@@ -12,6 +12,7 @@
 * PyTorch 1.5.0+[https://pytorch.org/get-started/locally/]<br/>
 * dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
+* torch-geometric [https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html]
 ## Use in Python
 ```
 from gasa import GASA 
@@ -41,5 +42,5 @@ In gasa: <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
  * explain.py: defines GraphSVX and main baselines <br/>
 Outside: <br/>
-* test.csv:
+* test.csv: several molecules for test the model
 

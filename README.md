@@ -19,12 +19,13 @@ smiles = 'NC(=O)OC[C@H](N)CC1=CC=CC=C1'
 predict, pos, neg = GASA(smiles)
 print(predict, pos, neg)
 [0] [0.8078028559684753] [0.19219708442687988]
-<br/><br/>
+
 
 df = pd.read_csv('./test.csv')
 smiles = list(df['smiles'])
 predict, pos, neg = GASA(smiles)
 
 `
+<br/>
  `gasa/main.py` for prediction. <br/>
 Datasets used in GASA can be found in `gasa/data/data.zip` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3

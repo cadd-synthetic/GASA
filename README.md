@@ -31,14 +31,14 @@ print(predict, pos, neg)
 ```
 <br/>
 ### The structure of the code is as follows:
-In data:
+In data: <br/>
  * ```data/data.zip``` folder: dataset for training, validation and test the model <br/>
                               Three external test sets:TS1, TS2 and TS3 <br/>
-In gasa: 
- * data.py: import and process the data
- * model.py: define GASA models
- * train.py: train GNN models
- * gasa_utils.py: converts SMILES into graph with features
- * gasa.py: code for predicting the results for a given molecule
- * hyper.py: code for hyper-parameters optimization
- * explain.py: defines GraphSVX and main baselines
+In gasa: <br/> 
+ * data.py: import and process the data <br/>
+ * model.py: define GASA models <br/>
+ * train.py: train GNN models <br/>
+ * gasa_utils.py: converts SMILES into graph with features <br/>
+ * gasa.py: code for predicting the results for a given molecule <br/>
+ * hyper.py: code for hyper-parameters optimization <br/>
+ * explain.py: defines GraphSVX and main baselines <br/>

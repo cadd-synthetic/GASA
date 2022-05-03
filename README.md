@@ -1,6 +1,6 @@
 ## GASA <br/>
 ### Description
-* GASA (Graph Attention-based assessment of Synthetic Accessibility) is used to evaluate the synthetic accessibility of small molecules by distinguishing compounds to be easy- (ES) or hard-to-synthesize (HS).<br/>
+* GASA (Graph Attention-based assessment of Synthetic Accessibility) is used to evaluate the synthetic accessibility of small molecules by distinguishing compounds to be easy- (ES, 0) or hard-to-synthesize (HS, 1).<br/>
 * GASA focus on sampling around the decision boundary line and trained on 800,000 compounds from ChEMBL, GDBChEMBL and ZINC15 databases.<br/>
 * GASA is graph neural network framework that makes self-feature deduction by applying an attention mechanism to automatically capture the most important structural features related to synthetic accessibility during the training process.<br/>
 * GASA is able to identify structurally similar compounds effectively.<br/>
@@ -24,8 +24,11 @@ print(predict, pos, neg)
 df = pd.read_csv('./test.csv')
 smiles = list(df['smiles'])
 predict, pos, neg = GASA(smiles)
-
+print(predict, pos, neg) 
+[0, 0, 1, 1]
+[0.9403825402259827, 0.8335544466972351, 0.19376544654369354, 0.1610676646232605]
+[0.05961743742227554, 0.1664455384016037, 0.8062344789505005, 0.8389323353767395]
 ```
 <br/>
- `gasa/main.py` for prediction. <br/>
-Datasets used in GASA can be found in `gasa/data/data.zip` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3
+
+Datasets used in GASA can be found in ```gasa/data/data.zip``` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3

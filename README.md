@@ -40,7 +40,6 @@ In gasa: <br/>
  * gasa.py: code for predicting the results for a given molecule <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
  * explain.py: defines GraphSVX and main baselines <br/>
- 
 Outside: <br/>
 * test.csv:
 

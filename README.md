@@ -13,7 +13,7 @@
 * dgllife 0.2.6+ [https://github.com/awslabs/dgl-lifesci]<br/>
 * RDKit (recommended version 2018.03.1+) [https://github.com/rdkit/rdkit]
 ### Use in Python
-`
+```
 from gasa import GASA <br/>
 smiles = 'NC(=O)OC[C@H](N)CC1=CC=CC=C1' <br/>
 predict, pos, neg = GASA(smiles)  <br/>
@@ -25,7 +25,7 @@ df = pd.read_csv('./test.csv')
 smiles = list(df['smiles'])
 predict, pos, neg = GASA(smiles)
 
-`
+```
 <br/>
  `gasa/main.py` for prediction. <br/>
 Datasets used in GASA can be found in `gasa/data/data.zip` folder: dataset for training, validation and test the model. Three external test sets:TS1, TS2 and TS3

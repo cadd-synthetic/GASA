@@ -31,8 +31,8 @@ print(predict, pos, neg)
 ```
 ## The structure of the code is as follows:
 In data: <br/>
- * ```data/data.zip``` folder: dataset for training, validation and test the model <br/>
-                              Three external test sets:TS1, TS2 and TS3 <br/>
+ * dataset for training, validation and test the model <br/>
+ * three external test sets:TS1, TS2 and TS3 <br/>
 In gasa: <br/> 
  * data.py: import and process the data <br/>
  * model.py: define GASA models <br/>

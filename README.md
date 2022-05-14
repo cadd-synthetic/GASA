@@ -46,6 +46,8 @@ In gasa: <br/>
  * model.py: define GASA models <br/>
  * gasa_utils.py: converts SMILES into graph with features <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
+ * gasa.pth: saved pretrained model <br/>
+ * gasa.json: best combination of hyper-parameters for GASA <br/>
 
 Outside: <br/>
 * gasa.py: code for predicting the results for given molecules <br/>

@@ -45,10 +45,10 @@ In gasa: <br/>
  * data.py: import and process the data <br/>
  * model.py: define GASA models <br/>
  * gasa_utils.py: converts SMILES into graph with features <br/>
- * gasa.py: code for predicting the results for given molecules <br/>
  * hyper.py: code for hyper-parameters optimization <br/>
 
 Outside: <br/>
+* gasa.py: code for predicting the results for given molecules <br/>
 * test.csv: several molecules for test the model
 * explain.ipynb: atom weights visualization for given compound <br/>
 

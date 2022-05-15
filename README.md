@@ -41,7 +41,7 @@ In data: <br/>
  * Dataset for training, validation and test the model <br/>
  * three external test sets:TS1, TS2 and TS3 <br/>
  
-In gasa: <br/> 
+In model: <br/> 
  * data.py: import and process the data <br/>
  * model.py: define GASA models <br/>
  * gasa_utils.py: converts SMILES into graph with features <br/>

@@ -55,5 +55,5 @@ Outside: <br/>
 * explain.ipynb: atom weights visualization for given compound <br/>
 
 ## Citation
-Jiahui Yu; Jike Wang; Hong Zhao; Junbo Gao; Yu Kang; Dongsheng Cao; Zhe Wang; Tingjun Hou.Synthetic Accessibility Prediction of Organic Compounds Based on the Graph Attention Mechanism. *J. Chem. Inf. Model.* 2022 <br/>
+Jiahui Yu; Jike Wang; Hong Zhao; Junbo Gao; Yu Kang; Dongsheng Cao; Zhe Wang; Tingjun Hou. Synthetic Accessibility Prediction of Organic Compounds Based on the Graph Attention Mechanism. *J. Chem. Inf. Model.* 2022 <br/>
 https://doi.org/10.1021/acs.jcim.2c00038
